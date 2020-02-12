@@ -96,7 +96,7 @@ $ sudo /bin/systemctl enable elasticsearch.service
 | Shard data  | /var/lib/elasticsearch  |
 
 
-* REFERENCES : Elastic search open distro installation guide
+* REFERENCES : [Elastic search open distro installation guide](https://opendistro.github.io/for-elasticsearch-docs/docs/install/rpm/)
 
 ## Install Fluentd
 
