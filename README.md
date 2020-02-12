@@ -11,7 +11,7 @@
  
 ## Install Grafana
 
-Follow the below steps to install Grafana in a single instance.
+* Follow the below steps to install Grafana in a single instance.
 1. Add new Grafana to the YUM repository by executing following command.
 ```
 $ cd /etc/yum.repos.d/
@@ -40,12 +40,12 @@ $ systemctl enable grafana-server
 ```
 ## Install Elasticsearch
 
-PREREQUISITES
+* PREREQUISITES
 
 Following software should be installed in the instance.
 ~Java 8
 
-INSTALLATION GUIDE
+* INSTALLATION GUIDE
 1. Create the repository file
 ```
 $ sudo curl https://d3g5vo6xdbdb9a.cloudfront.net/yum/opendistroforelasticsearch-artifacts.repo -o /etc/yum.repos.d/opendistroforelasticsearch-artifacts.repo
@@ -70,7 +70,7 @@ $ sudo systemctl start elasticsearch.service
 ```
 $ curl -XGET https://localhost:9200 -u admin:admin — insecure curl -XGET https://localhost:9200/_cat/nodes?v -u admin:admin — insecure curl -XGET https://localhost:9200/_cat/plugins?v -u admin:admin — insecure
 ```
-If you encounter following errors you can safely ignore if the elasticsearch service is running, according to the official documentation
+* If you encounter following errors you can safely ignore if the elasticsearch service is running, according to the official documentation
 ```
 elasticsearch[3969]: java.security.policy: error adding Entry:
 elasticsearch[3969]: java.net.MalformedURLException: unknown protocol: jrt
@@ -85,7 +85,7 @@ $ sudo /bin/systemctl enable elasticsearch.service
 
 ## Install Fluentd
 
-Before Installation
+* Before Installation
 
 Please follow the Preinstallation Guide to configure your OS properly. This will prevent many unnecessary problems.
 1. This shell script registers a new rpm repository at /etc/yum.repos.d/td.repo and installs the td-agent rpm package.
@@ -117,7 +117,7 @@ Change worker count at the top of the config.
 workers 1 #worker count starts from ‘0’
 </system>
 ```
-Worker for carbon logs
+* Worker for carbon logs
 ```
 #worker for Carbon logs
 ##worker 1
