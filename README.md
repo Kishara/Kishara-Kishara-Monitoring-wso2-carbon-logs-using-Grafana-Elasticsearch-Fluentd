@@ -134,7 +134,6 @@ workers 1 #worker count starts from ‘0’
 ```
 * Worker for carbon logs
 ```
-#worker for Carbon logs
 ##worker 1
 <worker 1>
 ## Source descriptions:
