@@ -9,7 +9,7 @@
  
  ## I’m using Red Hat Enterprise Linux Server version 7.5. To install these products follow as below.:rocket:
  
-Install Grafana
+## Install Grafana
 
 Follow the below steps to install Grafana in a single instance.
 1. Add new Grafana to the YUM repository by executing following command.
@@ -38,7 +38,7 @@ $ systemctl daemon-reload
 $ systemctl start grafana-server
 $ systemctl enable grafana-server
 ```
-Install Elasticsearch
+## Install Elasticsearch
 
 PREREQUISITES
 
@@ -83,7 +83,7 @@ $ sudo /bin/systemctl daemon-reload
 $ sudo /bin/systemctl enable elasticsearch.service
 ```
 
-Install Fluentd
+## Install Fluentd
 
 Before Installation
 
@@ -166,7 +166,7 @@ $ tail -f <PRODUCT_HOME>/repository/logs/wso2carbon.log
 ```
 
 
-Create grafana datasource
+### Create grafana datasource
 
 To visualize logs, grafana needs to create a datasource to collect logs that are stored in elasticsearch index.
 
