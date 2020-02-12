@@ -1,4 +1,4 @@
-# Kishara-Kishara-Monitoring-wso2-carbon-logs-using-Grafana-Elasticsearch-Fluentd
+# Monitoring Wso2 Carbon logs using Grafana, Elasticsearch, Fluentd
 
  
 * Grafana - Grafana is an open-source software. Grafana is best known as a visualization / dashboarding tool focused on graphing metrics from various data sources, such as Elasticsearch, InfluxDB, prometheus.
